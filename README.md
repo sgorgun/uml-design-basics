@@ -179,7 +179,18 @@ private static int intField = 212;
 
 Implement the static methods to return the relevant values of the private static fields. 
 
-Example 4.2. Method implementation.
+Example 4.2. Accessing a static field in a static method using a class name.
+
+```cs
+public static int GetInteger()
+{
+    return SimpleStaticClass4.intField;
+}
+```
+
+A static method may access a static field or other member without using a class name.
+
+Example 4.3. Accessing a static field in a static method without using a class name.
 
 ```cs
 public static int GetInteger()
@@ -187,6 +198,8 @@ public static int GetInteger()
     return intField;
 }
 ```
+Code in 4.2 and 4.3 examples is equivalent. 
+
 
 ### 5. Class
 
@@ -398,7 +411,7 @@ Read [Objects and Classes](https://www.tutorialspoint.com/object_oriented_analys
 
 > Behavior that represents externally visible activities performed by an object in terms of changes in its state.
 
-"External visible activities" are the class "set"-methods. Those methods are performed by a _SimpleClass4_ object in terms of changes in its state.
+"Externally visible activities" are the class "set"-methods. Those methods are performed by a _SimpleClass4_ object in terms of changes in its state.
 
 #### Step Questions
 
