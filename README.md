@@ -1241,9 +1241,9 @@ Use named arguments to pass arguments to the _SimpleClass16_ constructor.
 
 Create the new static _SimpleStaticClass6_ class in the [SimpleStaticClass6.cs](UmlDesignBasics/SimpleStaticClass6.cs) file, and add public static readonly fields.
 
-Class diagram 23. _SimpleClass16_ class.
+Class diagram 23. _SimpleStaticClass6_ class.
 
-![Class Diagram for SimpleClass16](./images/simple-class16.png).
+![Class Diagram for SimpleStaticClass6](./images/simple-static-class6.png).
 
 Example 24.1. Public static read-only field.
 
