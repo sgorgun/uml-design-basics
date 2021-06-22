@@ -4,12 +4,17 @@ A beginner level task for practicing creating and designing classes using UML di
 
 Before starting with the task learn the basics of [UML language](https://en.wikipedia.org/wiki/Unified_Modeling_Language) and [UML Class Diagrams](https://en.wikipedia.org/wiki/Class_diagram). Search YouTube for [relevant video tutorials](https://www.youtube.com/results?search_query=uml+class+diagram) to get started quickly. Don't waste time! You don't have to master the UML Class Diagrams. You just need to get a [basic understanding on the topic](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_uml_basic_notation.htm), and you can always find the answer to your question in the [UML Class Diagrams Reference](https://www.uml-diagrams.org/class-reference.html). 
 
+Estimated time to complete the task: 6h.
+
 
 ## Task
 
+The task has twenty four sections with small sub-tasks. After completing a section, read materials in "Additional Reading" section and answer the questions in "Step Questions" section. 
+
+
 ### 1. Static Class
 
-Open a [SimpleStaticClass1.cs](UmlDesignBasics/SimpleStaticClass1.cs) file, and add the code to declare a new [static class](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members) with the name _SimpleStaticClass1_. The class should have ["public"](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public) [access modifier](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers) and no class members.
+Open the [SimpleStaticClass1.cs](UmlDesignBasics/SimpleStaticClass1.cs) file, and add the code to declare a new [static class](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members) with the name _SimpleStaticClass1_. The class should have ["public"](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public) [access modifier](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers) and no class members.
 
 Example 1. Static class declaration.
 
@@ -37,7 +42,7 @@ NB: "&lt;&lt;static&gt;&gt;" is a custom [UML stereotype](https://www.uml-diagra
 
 ### 2. Static Fields
 
-Open a [SimpleStaticClass2.cs](UmlDesignBasics/SimpleStaticClass2.cs) file, add the code to declare a new public static class with the name _SimpleStaticClass2_, and add the [static fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members#static-members) using the information from the table below:
+Open the [SimpleStaticClass2.cs](UmlDesignBasics/SimpleStaticClass2.cs) file, add the code to declare a new public static class with the name _SimpleStaticClass2_, and add the [static fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members#static-members) using the information from the table below:
 
 | Field Name   | Field Type | Field Access Modifier | UML Visibility Type |
 |--------------|------------|-----------------------|---------------------|
@@ -89,7 +94,7 @@ The _SimpleStaticClass2.cs_ file contains [pragma preprocessor directives](https
 
 ### 3. Static Methods
 
-Open a [SimpleStaticClass3.cs](UmlDesignBasics/SimpleStaticClass3.cs) file, add the code to declare a new public static class with the name _SimpleStaticClass3_, and add the [static methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members#static-members) using the information from the table below:
+Open the [SimpleStaticClass3.cs](UmlDesignBasics/SimpleStaticClass3.cs) file, add the code to declare a new public static class with the name _SimpleStaticClass3_, and add the [static methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members#static-members) using the information from the table below:
 
 | Method Name    | Return Type | Return Value | Field Access Modifier | UML Visibility Type |
 |----------------|-------------|--------------|-----------------------|---------------------|
@@ -198,14 +203,14 @@ public static int GetInteger()
     return intField;
 }
 ```
-Code in 4.2 and 4.3 examples is equivalent. 
+Code in 4.2 and 4.3 examples are equivalent. 
 
 
 ### 5. Class
 
-Open a [SimpleClass1.cs](UmlDesignBasics/SimpleClass1.cs) file, and add the code to declare a new public [class](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes) with the name _SimpleClass1_. The class should have and no class members.
+Open the [SimpleClass1.cs](UmlDesignBasics/SimpleClass1.cs) file, and add the code to declare a new public [class](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes) with the name _SimpleClass1_. The class should have and no class members.
 
-Example 5. A class declaration.
+Example 5. Class declaration.
 
 ```cs
 public class SimpleClass1
@@ -240,7 +245,7 @@ Also, read the [Reference types and Declaring Classes](https://docs.microsoft.co
 
 ### 6. Instance Fields
 
-Open a [SimpleClass2.cs](UmlDesignBasics/SimpleClass2.cs) file, and add the code to declare a new public _SimpleClass2_ class with [instance fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields) using the information from the table below:
+Open the [SimpleClass2.cs](UmlDesignBasics/SimpleClass2.cs) file, and add the code to declare a new public _SimpleClass2_ class with [instance fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields) using the information from the table below:
 
 | Field Name   | Field Type | Field Access Modifier |
 |--------------|------------|-----------------------|
@@ -290,7 +295,7 @@ A class with fields only is a simple [data structure](https://en.wikipedia.org/w
 
 ### 7. Class Instantiation
 
-Open a [CreatingSimpleClass2](UmlDesignBasics/CreatingSimpleClass2.cs) class, and add the implementation for _CreateSimpleClass2_ method - a method should create a new object of _SimpleClass2_ class and set all public fields.
+Open the [CreatingSimpleClass2](UmlDesignBasics/CreatingSimpleClass2.cs) class, and add the implementation for _CreateSimpleClass2_ method - a method should create a new object of _SimpleClass2_ class and set all public fields.
 
 | Field Name   | Value  |
 |--------------|--------|
@@ -310,7 +315,7 @@ simpleClass.IntField = -331;
 return simpleClass;
 ```
 
-Open a [CreatingSimpleClass2](UmlDesignBasics/CreatingSimpleClass2.cs) class, and add the implementation for _CreateSimpleClass2ObjectInitializer_ method - a method should create a new object of _SimpleClass2_ class and set all public fields by using an _object initializer_.
+Open the [CreatingSimpleClass2](UmlDesignBasics/CreatingSimpleClass2.cs) class, and add the implementation for _CreateSimpleClass2ObjectInitializer_ method - a method should create a new object of _SimpleClass2_ class and set all public fields by using an _object initializer_.
 
 | Field Name   | Value   |
 |--------------|---------|
@@ -357,7 +362,7 @@ Open [SimpleClass3.cs](UmlDesignBasics/SimpleClass3.cs) file, and add the code t
 | GetString      | "abcdef"        |
 | GetObject      | new object()    |
 
-Example 8. An instance method declaration.
+Example 8. Instance method declaration.
 
 ```cs
 public int GetInteger()
@@ -433,12 +438,13 @@ public int GetLongInteger()
 ```
 
 * Does the SimpleClass9 class have the class state and behavior?
+* What steps has the "Encapsulate Field" refactoring technique?
 * What UML notation is used to define a public and private visibility types for a class member on a class diagram?
 
 
 ### 10. Instance Fields Initialization
 
-Create a new _SimpleClass5_ in the [SimpleClass5.cs](UmlDesignBasics/SimpleClass5.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass5 class, and add field initializers using the information from the table below:
+Create the new _SimpleClass5_ in the [SimpleClass5.cs](UmlDesignBasics/SimpleClass5.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass5_ class, and add field initializers using the information from the table below:
 
 | Field Name   | Field Initializer Value    |
 |--------------|----------------------------|
@@ -451,7 +457,7 @@ Create a new _SimpleClass5_ in the [SimpleClass5.cs](UmlDesignBasics/SimpleClass
 | stringField  | "defabc"                   |
 | objectField  | typeof(int)       |
 
-Example 10.1. Field initializer.
+Example 10. Field initializer.
 
 ```cs
 private int intField = -216;
@@ -471,7 +477,7 @@ An object of the _SimpleClass5_ class is [immutable](https://www.c-sharpcorner.c
 
 ### 11. Parameterless Constructor
 
-Create a new _SimpleClass6_ class in the [SimpleClass6.cs](UmlDesignBasics/SimpleClass6.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass6_ class, and add public [default parameterless constructor](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
+Create the new _SimpleClass6_ class in the [SimpleClass6.cs](UmlDesignBasics/SimpleClass6.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass6_ class, and add public [default parameterless constructor](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
 
 Add the code for initializing class fields to the constructor using the information from the table below:
 
@@ -514,7 +520,7 @@ NB: "&lt;&lt;constructor&gt;&gt;" is a custom [UML stereotype](https://www.uml-d
 
 ### 12. Constructor with Parameters
 
-Create a new _SimpleClass7_ class in the [SimpleClass7.cs](UmlDesignBasics/SimpleClass7.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass7_ class, and add a public [constructor with parameters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
+Create the new _SimpleClass7_ class in the [SimpleClass7.cs](UmlDesignBasics/SimpleClass7.cs) file, copy all instance fields and "get" instance methods from _SimpleClass4_ class to the _SimpleClass7_ class, and add a public [constructor with parameters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors).
 
 Add the code for initializing class fields to the constructor using the information from the table below:
 
@@ -563,7 +569,7 @@ Visual Studio has automatic construction generation feature - [Generate a constr
 
 ### 13. Properties
 
-Create a new _SimpleClass8_ class in the [SimpleClass8.cs](UmlDesignBasics/SimpleClass8.cs) file, copy all instance fields and instance methods from _SimpleClass4_ class to the _SimpleClass8_ class.
+Create the new _SimpleClass8_ class in the [SimpleClass8.cs](UmlDesignBasics/SimpleClass8.cs) file, copy all instance fields and instance methods from _SimpleClass4_ class to the _SimpleClass8_ class.
 
 Refactor the class code to replace all "get" and "set" methods with [properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties).
 
@@ -634,7 +640,7 @@ Visual Studio has a feature for converting "get" and "set" methods to properties
 
 ### 14. Auto-implemented Properties
 
-Create a new _SimpleClass9_ class in the [SimpleClass9.cs](UmlDesignBasics/SimpleClass9.cs) file, copy all instance properties from _SimpleClass8_ class to the _SimpleClass9_ class.
+Create the new _SimpleClass9_ class in the [SimpleClass9.cs](UmlDesignBasics/SimpleClass9.cs) file, copy all instance properties from _SimpleClass8_ class to the _SimpleClass9_ class.
 
 Refactor the class code to replace all properties with [auto-implemented properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties#auto-implemented-properties).
 
@@ -666,7 +672,7 @@ Visual Studio has a feature for converting a property to auto-implemented proper
 
 ### 15. Private Setters
 
-Create a new _SimpleClass10_ class in [SimpleClass10.cs](UmlDesignBasics/SimpleClass10.cs) file, copy all instance properties from _SimpleClass9_ class and make all "set" accessors _private_.
+Create the new _SimpleClass10_ class in [SimpleClass10.cs](UmlDesignBasics/SimpleClass10.cs) file, copy all instance properties from _SimpleClass9_ class and make all "set" accessors _private_.
 
 Example 15.1. Private "set" accessor.
 
@@ -751,7 +757,7 @@ Students often treat "encapsulation" concept as "data hiding", but the concept h
 
 ### 17. Constructor Overloading
 
-Create a new _SimpleClass11_ class in the [SimpleClass11.cs](UmlDesignBasics/SimpleClass11.cs) file, and copy all instance properties from the _SimpleClass10_ class to the _SimpleClass11_ class.
+Create the new _SimpleClass11_ class in the [SimpleClass11.cs](UmlDesignBasics/SimpleClass11.cs) file, and copy all instance properties from the _SimpleClass10_ class to the _SimpleClass11_ class.
 
 Class diagram 17. _SimpleClass11_ class.
 
@@ -828,7 +834,7 @@ long l = simpleClass.LongValue; // ?
 
 ### 18. Constructor Chaining
 
-Create a new _SimpleClass12_ class in the [SimpleClass12.cs](UmlDesignBasics/SimpleClass12.cs) file, and copy all class members (instance properties and eight constructors with parameters) from the _SimpleClass11_ class  to the _SimpleClass12_ class.
+Create the new _SimpleClass12_ class in the [SimpleClass12.cs](UmlDesignBasics/SimpleClass12.cs) file, and copy all class members (instance properties and eight constructors with parameters) from the _SimpleClass11_ class  to the _SimpleClass12_ class.
 
 Add a new private parameterless constructor to the class, and add the code for initializing the class instance properties with the values in the table below:
 
@@ -891,7 +897,7 @@ double l = simpleClass.DoubleValue; // ?
 
 ### 19. Designing a Class with Many Constructors
 
-Create a new _SimpleClass13_ class in the [SimpleClass13.cs](UmlDesignBasics/SimpleClass13.cs) file, and copy all class members (instance properties and the constructor with parameters) from the _SimpleClass10_ class to the _SimpleClass13_ class.
+Create the new _SimpleClass13_ class in the [SimpleClass13.cs](UmlDesignBasics/SimpleClass13.cs) file, and copy all class members (instance properties and the constructor with parameters) from the _SimpleClass10_ class to the _SimpleClass13_ class.
 
 Class diagram 19. _SimpleClass13_ class.
 
@@ -939,9 +945,14 @@ public StringBuilder(string value, int capacity);
 public StringBuilder(string value, int startIndex, int length, int capacity);
 ```
 
+#### Step Questions
+
+* Whether the _SimpleClass13_ class is immutable or mutable class? Why?
+
+
 ### 20. Static Factory Method
 
-Create a new _SimpleClass14_ class in the [SimpleClass14.cs](UmlDesignBasics/SimpleClass14.cs) file, and copy all class members (instance properties and constructors) from the _SimpleClass13_ class to the _SimpleClass14_ class.
+Create the new _SimpleClass14_ class in the [SimpleClass14.cs](UmlDesignBasics/SimpleClass14.cs) file, and copy all class members (instance properties and constructors) from the _SimpleClass13_ class to the _SimpleClass14_ class.
 
 Class diagram 20. _SimpleClass14_ class.
 
@@ -1029,7 +1040,7 @@ public static object? CreateInstance (Type type, object?[]? args, object?[]? act
 
 ### 21. Optional Parameters and Named Arguments
 
-Create a new _SimpleClass15_ class in the [SimpleClass15.cs](UmlDesignBasics/SimpleClass15.cs) file, and copy instance properties and the constructor only from the _SimpleClass14_ class to the _SimpleClass15_ class.
+Create the new _SimpleClass15_ class in the [SimpleClass15.cs](UmlDesignBasics/SimpleClass15.cs) file, and copy instance properties and the constructor only from the _SimpleClass14_ class to the _SimpleClass15_ class.
 
 Class diagram 21. _SimpleClass15_ class.
 
@@ -1113,7 +1124,7 @@ public static SimpleClass15 Create(
 
 ### 22. Constants
 
-Create a new static _SimpleStaticClass5_ class in the [SimpleStaticClass5.cs](UmlDesignBasics/SimpleStaticClass5.cs) file, and define [public constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-define-constants) using the information from the table below:
+Create the new static _SimpleStaticClass5_ class in the [SimpleStaticClass5.cs](UmlDesignBasics/SimpleStaticClass5.cs) file, and define [public constants](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-define-constants) using the information from the table below:
 
 | Constant     | Constant Value                 |
 |--------------|--------------------------------|
@@ -1136,13 +1147,15 @@ Class diagram 22. _SimpleStaticClass5_ class.
 
 ![Class Diagram for SimpleStaticClass5](./images/simple-static-class5.png).
 
-### Additional Reading
+NB: "<<const>>" is a custom UML stereotype, not a standard UML notation.
+
+#### Additional Reading
 
 Read more about constants in [Constants (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constants) article: 
 
 > Constants are immutable values which are known at compile time and do not change for the life of the program. Only the C# built-in types (excluding System.Object) may be declared as const. User-defined types, including classes, structs, and arrays, cannot be const. Use the readonly modifier to create a class, struct, or array that is initialized one time at runtime (for example in a constructor) and thereafter cannot be changed.
 
-### Step Questions
+#### Step Questions
 
 * What is a constant?
 * How to declare a constant?
@@ -1153,7 +1166,7 @@ Read more about constants in [Constants (C# Programming Guide)](https://docs.mic
 
 ### 23. Read-only Fields
 
-Create a new _SimpleClass16_ class in the [SimpleClass16.cs](UmlDesignBasics/SimpleClass16.cs) file, and add public constants using the information from the table below:
+Create the new _SimpleClass16_ class in the [SimpleClass16.cs](UmlDesignBasics/SimpleClass16.cs) file, and add public constants using the information from the table below:
 
 | Constant            | Constant Value |
 |---------------------|----------------|
@@ -1214,7 +1227,7 @@ public static object CreateSimpleClass16WithDefaultValues()
 
 Use named arguments to pass arguments to the _SimpleClass16_ constructor.
 
-### Step Questions
+#### Step Questions
 
 * What is a read-only field?
 * How to declare a read-only field?
@@ -1224,13 +1237,72 @@ Use named arguments to pass arguments to the _SimpleClass16_ constructor.
 * Whether the _SimpleClass16_ class is immutable or mutable class? Why?
 
 
-### State, Behavior and Identity
+### 24. Static Constructors
 
-Object characteristics:
+Create the new static _SimpleStaticClass6_ class in the [SimpleStaticClass6.cs](UmlDesignBasics/SimpleStaticClass6.cs) file, and add public static readonly fields.
 
-* State - what the objects have.
-* Behavior - what the objects do.
-* Identity - what makes the objects unique.
+Class diagram 23. _SimpleClass16_ class.
+
+![Class Diagram for SimpleClass16](./images/simple-class16.png).
+
+Example 24.1. Public static read-only field.
+
+```cs
+public static readonly object IntType;
+// TODO: add other fields here
+```
+
+Add a [static constructor](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors) and initialize static fields with values from the table below: 
+
+| Field Name   | Value          |
+|--------------|----------------|
+| IntType      | typeof(int)    |
+| LongType     | typeof(long)   |
+| FloatType    | typeof(float)  |
+| DoubleType   | typeof(double) |
+| CharType     | typeof(char)   |
+| BooleanType  | typeof(bool)   |
+| StringType   | typeof(string) |
+
+Example 24.2. Static constructor
+
+```cs
+static SimpleStaticClass6()
+{
+    IntType = typeof(int);
+    // TODO: initialize other fields here
+}
+```
+
+#### Additional Reading
+
+Read [Static Constructors (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors) article - properties of static constructor and usage.
+
+
+#### Step Questions
+
+* How to declare a static constructor?
+* What are the typical usage scenarios for static constructors?
+* Is it possible for a static constructor to have "private" access modifier?
+
+```cs
+private static SimpleStaticClass6() { } // ?
+```
+
+* Is it possible for a static constructor to have parameters?
+
+```cs
+static SimpleStaticClass6(int intValue, long longValue) { } // ?
+```
+
+* Is it possible to call a static constructor manually?
+
+```cs
+SimpleStaticClass6.SimpleStaticClass6();
+```
+
+* When a static constructor is called?
+
 
 Read more details in [the discussion on SO](https://stackoverflow.com/questions/18219339/trouble-understanding-object-state-behavior-and-identity), or [search more](https://www.google.com/search?q=state+behavior+identity) on the topic in Google.
 
