@@ -18,7 +18,7 @@ namespace UmlDesignBasics.Tests
 
             var field = simpleClass.GetType().GetField("IntField", BindingFlags.Instance | BindingFlags.Public);
             Assert.IsNotNull(field);
-            Assert.AreEqual(331, field.GetValue(simpleClass));
+            Assert.AreEqual(-331, field.GetValue(simpleClass));
 
             field = simpleClass.GetType().GetField("FloatField", BindingFlags.Instance | BindingFlags.Public);
             Assert.IsNotNull(field);
