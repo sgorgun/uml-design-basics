@@ -1056,14 +1056,14 @@ Copy _Create(int, long, float, double, char, bool, string, object)_ method from 
 | doubleValue      | 12923.6374                 |
 | charValue        | 'j'                        |
 | boolValue        | true                       |
-| StringValue      | "pqrmno"                   |
+| stringValue      | "pqrmno"                   |
 | objectValue      | null                       |
 
 Example 21.1. Optional parameter with a constant expression as a default value. 
 
 ```cs
 public static SimpleClass15 Create(
-    int intValue = -12354,
+    int intValue = 12354,
     // TODO: add other method parameters here with default values
 )
 {
