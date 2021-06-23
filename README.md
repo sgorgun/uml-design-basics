@@ -424,7 +424,7 @@ Read [Objects and Classes](https://www.tutorialspoint.com/object_oriented_analys
 * Is it possible to access a private class field from the outside of a class?
 
 ```cs
-SimpleClass9 obj = new SimpleClass9();
+SimpleClass4 obj = new SimpleClass4();
 int i = obj.intField; // ?
 ```
 
@@ -437,7 +437,7 @@ public int GetLongInteger()
 }
 ```
 
-* Does the SimpleClass9 class have the class state and behavior?
+* Does the SimpleClass4 class have the class state and behavior?
 * What steps has the "Encapsulate Field" refactoring technique?
 * What UML notation is used to define a public and private visibility types for a class member on a class diagram?
 
