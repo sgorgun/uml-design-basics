@@ -51,7 +51,7 @@ namespace UmlDesignBasics.Tests
         }
 
         [TestCase("GetInteger", typeof(int), ExpectedResult = int.MaxValue)]
-        [TestCase("GetLongInteger", typeof(long), ExpectedResult = long.MinValue)]
+        [TestCase("GetLong", typeof(long), ExpectedResult = long.MinValue)]
         [TestCase("GetFloat", typeof(float), ExpectedResult = float.Epsilon)]
         [TestCase("GetDouble", typeof(double), ExpectedResult = double.NaN)]
         [TestCase("GetChar", typeof(char), ExpectedResult = 'c')]
