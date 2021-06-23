@@ -11,7 +11,7 @@ namespace UmlDesignBasics.Tests
         private static readonly object[][] Data =
         {
             new object[] { "GetInteger", "SetInteger", typeof(int), int.MaxValue },
-            new object[] { "GetLongInteger", "SetLongInteger", typeof(long), long.MinValue },
+            new object[] { "GetLong", "SetLong", typeof(long), long.MinValue },
             new object[] { "GetFloat", "SetFloat", typeof(float), float.Epsilon },
             new object[] { "GetDouble", "SetDouble", typeof(double), double.NaN },
             new object[] { "GetChar", "SetChar", typeof(char), 'A' },
@@ -83,7 +83,7 @@ namespace UmlDesignBasics.Tests
         }
 
         [TestCase("GetInteger", typeof(int))]
-        [TestCase("GetLongInteger", typeof(long))]
+        [TestCase("GetLong", typeof(long))]
         [TestCase("GetFloat", typeof(float))]
         [TestCase("GetDouble", typeof(double))]
         [TestCase("GetChar", typeof(char))]
@@ -99,7 +99,7 @@ namespace UmlDesignBasics.Tests
         }
 
         [TestCase("SetInteger", typeof(int))]
-        [TestCase("SetLongInteger", typeof(long))]
+        [TestCase("SetLong", typeof(long))]
         [TestCase("SetFloat", typeof(float))]
         [TestCase("SetDouble", typeof(double))]
         [TestCase("SetChar", typeof(char))]

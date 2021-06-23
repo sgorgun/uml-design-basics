@@ -71,7 +71,7 @@ namespace UmlDesignBasics.Tests
         }
 
         [TestCase("GetInteger", typeof(int), ExpectedResult = 754)]
-        [TestCase("GetLongInteger", typeof(long), ExpectedResult = 721)]
+        [TestCase("GetLong", typeof(long), ExpectedResult = 721)]
         [TestCase("GetFloat", typeof(float), ExpectedResult = -76.67F)]
         [TestCase("GetDouble", typeof(double), ExpectedResult = 372.127)]
         [TestCase("GetChar", typeof(char), ExpectedResult = 'e')]
