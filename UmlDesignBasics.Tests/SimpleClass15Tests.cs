@@ -82,8 +82,8 @@ namespace UmlDesignBasics.Tests
             Assert.AreEqual(8, this.classType.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.DeclaredOnly).Length);
 
             Assert.AreEqual(0, this.classType.GetConstructors(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic).Length);
-            Assert.AreEqual(1, this.classType.GetConstructors(BindingFlags.Instance | BindingFlags.Public).Length);
-            Assert.AreEqual(0, this.classType.GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic).Length);
+            Assert.AreEqual(0, this.classType.GetConstructors(BindingFlags.Instance | BindingFlags.Public).Length);
+            Assert.AreEqual(1, this.classType.GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic).Length);
 
             Assert.AreEqual(0, this.classType.GetProperties(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic).Length);
             Assert.AreEqual(8, this.classType.GetProperties(BindingFlags.Instance | BindingFlags.Public).Length);
@@ -114,7 +114,7 @@ namespace UmlDesignBasics.Tests
         [TestCaseSource(nameof(ConstructorData))]
         public void HasConstructor(Type[] parameterTypes, object[] constructorArguments)
         {
-            var constructorInfo = this.classType.GetConstructor(parameterTypes);
+            var constructorInfo = this.classType.GetConstructor(BindingFlags.Instance | BindingFlags.NonPublic, null, parameterTypes, null);
             Assert.NotNull(constructorInfo);
 
             var instance = constructorInfo.Invoke(constructorArguments);
