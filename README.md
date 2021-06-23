@@ -354,7 +354,7 @@ Open [SimpleClass3.cs](UmlDesignBasics/SimpleClass3.cs) file, and add the code t
 | Method Name    | Return Value    |
 |----------------|-----------------|
 | GetInteger     | MaxValue        |
-| GetLongInteger | MinValue        |
+| GetLong        | MinValue        |
 | GetFloat       | Epsilon         |
 | GetDouble      | NaN             |
 | GetChar        | 'c'             |
@@ -431,7 +431,7 @@ int i = obj.intField; // ?
 * Is it possible to access a private class field from a class method?
 
 ```cs
-public int GetLongInteger()
+public int GetLong()
 {
     return this.intField + this.longField; // ?
 }
