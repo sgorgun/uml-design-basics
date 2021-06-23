@@ -774,7 +774,7 @@ Add eight public constructors with one parameter (see the class diagram above), 
 | CharValue     | 'f'                       |
 | BooleanValue  | false                     |
 | StringValue   | "jklmno"                  |
-| ObjectValue   | typeof(SimpleClass11)     |
+| ObjectValue   | null                      |
 
 A relevant instance property should be initialized with a constructor parameter value. 
 
