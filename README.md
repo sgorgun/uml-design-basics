@@ -344,7 +344,7 @@ The objects returned by _CreateSimpleClass2_ and _CreateSimpleClass2ObjectInitia
 #### Step Questions
 
 * What keyword is used for creating an instance of a class?
-* How to use object object initializers to initialize an instance of the SimpleClass2 class?
+* How to use object initializers to initialize an instance of the SimpleClass2 class?
 
 
 ### 8. Instance Methods
@@ -1306,10 +1306,6 @@ SimpleStaticClass6.SimpleStaticClass6();
 
 Read more details in [the discussion on SO](https://stackoverflow.com/questions/18219339/trouble-understanding-object-state-behavior-and-identity), or [search more](https://www.google.com/search?q=state+behavior+identity) on the topic in Google.
 
-
-## Questions
-
-* How to make a SimpleClass6 class immutable?
 
 ## See also
 
