@@ -12,6 +12,13 @@ Estimated time to complete the task: 6h.
 The task has twenty four sections with small sub-tasks. After completing a section, read materials in "Additional Reading" section and answer the questions in "Step Questions" section. 
 
 
+### Productivity
+
+Visual Studio has a special feature to help you quickly find specified items. You can go to a specific file, type, symbol or class member with [Go To commands](https://docs.microsoft.com/en-us/visualstudio/ide/go-to). Navigation with Go To commands is much more productive than using Solution Explorer pane.
+
+Visual Studio Code has similar features for [quick file navigation](https://code.visualstudio.com/docs/editor/editingevolved#_quick-file-navigation).
+
+
 ### 1. Static Class
 
 Open the [SimpleStaticClass1.cs](UmlDesignBasics/SimpleStaticClass1.cs) file, and add the code to declare a new [static class](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members) with the name _SimpleStaticClass1_. The class should have ["public"](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/public) [access modifier](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers) and no class members.
