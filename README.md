@@ -208,7 +208,7 @@ Code in 4.2 and 4.3 examples are equivalent.
 
 ### 5. Class
 
-Open the [SimpleClass1.cs](UmlDesignBasics/SimpleClass1.cs) file, and add the code to declare a new public [class](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes) with the name _SimpleClass1_. The class should have and no class members.
+Open the [SimpleClass1.cs](UmlDesignBasics/SimpleClass1.cs) file, and add the code to declare a new public [class](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes) with the name _SimpleClass1_. The class should have no class members.
 
 Example 5. Class declaration.
 
@@ -329,7 +329,7 @@ Example 7.2. Initializing a object of SimpleClass2 class by using an object init
 ```cs
 return new SimpleClass2
 {
-    IntField = 331,
+    IntField = 432,
     // TODO: set other fields here
 };
 ```
@@ -463,7 +463,7 @@ Example 10. Field initializer.
 private int intField = -216;
 ```
 
-Class diagram 10. _SimpleStaticClass5_ class.
+Class diagram 10. _SimpleClass5_ class.
 
 ![Class Diagram for SimpleClass5](./images/simple-class5.png).
 
