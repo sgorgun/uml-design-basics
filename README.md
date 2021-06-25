@@ -672,8 +672,8 @@ Visual Studio has a feature for converting a property to auto-implemented proper
 ### Step Questions
 
 * What is an auto-implemented property?
-* Does an auto-implemented property has a backing field?
-* Does an auto-implemented property has get and set accessors?
+* Does an auto-implemented property have a backing field?
+* Does an auto-implemented property have get and set accessors?
 * What is the default accessibility level for get and set accessors (in example 14)?
 * Whether the _SimpleClass9_ class is immutable or mutable class? Why?
 * What refactoring feature has Visual Studio for converting between an auto-implemented property and a full property?
@@ -1241,8 +1241,8 @@ Use named arguments to pass arguments to the _SimpleClass16_ constructor.
 * What is a read-only field?
 * How to declare a read-only field?
 * Is it true that a const field is a run-time constant and the read-only field can be used for compile-time constants?
-* Whether it possible for a property to have only a "get" accessor?
-* Whether it possible for a property to have only a "set" accessor?
+* Whether it is possible for a property to have only a "get" accessor?
+* Whether it is possible for a property to have only a "set" accessor?
 * Whether the _SimpleClass16_ class is immutable or mutable class? Why?
 
 
