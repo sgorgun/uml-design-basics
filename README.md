@@ -149,7 +149,7 @@ int i = SimpleStaticClass3.GetInteger(); // ?
 long i = SimpleStaticClass3.GetLongInteger(); // ?
 ```
 
-* Is it possible to invoke a private static method from an other static method of a class?
+* Is it possible to invoke a private static method from another static method of a class?
 
 ```cs
 public static long GetLongInteger()
@@ -331,7 +331,7 @@ Open the [CreatingSimpleClass2](UmlDesignBasics/CreatingSimpleClass2.cs) class, 
 | DoubleField  | 43.12   |
 | BooleanField | false   |
 
-Example 7.2. Initializing a object of SimpleClass2 class by using an object initializer.
+Example 7.2. Initializing an object of SimpleClass2 class by using an object initializer.
 
 ```cs
 return new SimpleClass2
@@ -341,7 +341,7 @@ return new SimpleClass2
 };
 ```
 
-The objects returned by _CreateSimpleClass2_ and _CreateSimpleClass2ObjectInitializer_ methods has the **state** only, the object has no **behavior**. The state of each object is **different** because the objects contains different values in their fields.
+The objects returned by _CreateSimpleClass2_ and _CreateSimpleClass2ObjectInitializer_ methods has the **state** only, the object has no **behavior**. The state of each object is **different** because the objects contain different values in their fields.
 
 #### Additional Reading
 
@@ -401,7 +401,7 @@ int i = obj.GetInteger(); // ?
 
 ### 9. Data Hiding
 
-Open [SimpleClass4](UmlDesignBasics/SimpleClass4.cs) class. The class has public instance fields already, but having public instance fields in your classes may lead to runtime issues. That's why code analysis tools reports the SA1401 and CA1051 warnings for the _SimpleClass4_ class.
+Open [SimpleClass4](UmlDesignBasics/SimpleClass4.cs) class. The class has public instance fields already, but having public instance fields in your classes may lead to runtime issues. That's why code analysis tools report the SA1401 and CA1051 warnings for the _SimpleClass4_ class.
 
 Refactor the code using [Encapsulate Field](https://refactoring.guru/encapsulate-field) (use Java code snippet as an example) technique to hide all instance fields. 
 
@@ -707,7 +707,7 @@ obj.IntValue = 10; // Compiler error: [CS0200] Property or indexer 'SimpleClass1
 ### Step Questions
 
 * What access modifiers a get or set property accessor may have?
-* Is is possible to access a property with private get accessor?
+* Is it possible to access a property with private get accessor?
 
 ```cs
 class MyClass {
@@ -718,7 +718,7 @@ MyClass obj = new MyClass();
 int i = obj.Value; // ?
 ```
 
-* Is is possible to assign a value to a property with private set accessor?
+* Is it possible to assign a value to a property with private set accessor?
 
 ```cs
 class MyClass {
@@ -729,7 +729,7 @@ MyClass obj = new MyClass();
 obj.Value = 1; // ?
 ```
 
-* Is is possible to have a property with both private get and set accessors?
+* Is it possible to have a property with both private get and set accessors?
 
 ```cs
 class MyClass {
@@ -870,7 +870,7 @@ public SimpleClass12(int intValue)
 }
 ```
 
-Invoking a constructor from an other constructor is called [constructor chaining](https://www.pluralsight.com/guides/call-chain-constructors-csharp).
+Invoking a constructor from another constructor is called [constructor chaining](https://www.pluralsight.com/guides/call-chain-constructors-csharp).
 
 Class diagram 18. _SimpleClass12_ class.
 
@@ -1055,7 +1055,7 @@ Class diagram 21. _SimpleClass15_ class.
 
 ![Class Diagram for SimpleClass15](./images/simple-class15.png).
 
-Copy _Create(int, long, float, double, char, bool, string, object)_ method from the _SimpleClass14_ class to _SimpleClass15_ class, and make the the [method parameters optional](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments) by adding a default value.
+Copy _Create(int, long, float, double, char, bool, string, object)_ method from the _SimpleClass14_ class to _SimpleClass15_ class, and make the [method parameters optional](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments) by adding a default value.
 
 | Method Parameter | Default Value              |
 |------------------|----------------------------|
@@ -1197,7 +1197,7 @@ private readonly int intField;
 // TODO: add other readonly fields here.
 ```
 
-Add a constructor with parameters, use the parameters to initialize instance fields, and and make the [constructor parameters optional](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments) by setting the constants as default values.
+Add a constructor with parameters, use the parameters to initialize instance fields, and make the [constructor parameters optional](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments#optional-arguments) by setting the constants as default values.
 
 Example 23.2. Constant as default value for an optional parameter.
 
