@@ -12,7 +12,7 @@ Estimated time to complete the task: 6h.
 The task has twenty four sections with small sub-tasks. After completing a section, read materials in "Additional Reading" section and answer the questions in "Step Questions" section. 
 
 
-### Productivity
+### Visual Studio
 
 Visual Studio has a special feature to help you quickly find specified items. You can go to a specific file, type, symbol or class member with [Go To commands](https://docs.microsoft.com/en-us/visualstudio/ide/go-to). Navigation with Go To commands is much more productive than using Solution Explorer pane.
 
