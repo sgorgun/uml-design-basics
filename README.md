@@ -1140,7 +1140,7 @@ Create the new static _SimpleStaticClass5_ class in the [SimpleStaticClass5.cs](
 | BitsInByte   | 2 * 2 + 16 / 4                 |
 | Tau          | 3.1415925 * 2                  |
 | NewLine      | '\n'                           |
-| BoolValue    | true && false && false;        |
+| BoolValue    | true && false && false         |
 | HelloWorld   | "Hello" + ", " + "world" + "!" |
 
 Example 22. Public constant.
