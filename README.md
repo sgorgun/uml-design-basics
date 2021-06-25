@@ -403,7 +403,7 @@ int i = obj.GetInteger(); // ?
 
 Open [SimpleClass4](UmlDesignBasics/SimpleClass4.cs) class. The class has public instance fields already, but having public instance fields in your classes may lead to runtime issues. That's why code analysis tools reports the SA1401 and CA1051 warnings for the _SimpleClass4_ class.
 
-Refactor the code using [Encapsulate Field](https://refactoring.guru/encapsulate-field) technique to hide all instance fields. 
+Refactor the code using [Encapsulate Field](https://refactoring.guru/encapsulate-field) (use Java code snippet as an example) technique to hide all instance fields. 
 
 Class diagram 9. _SimpleClass4_ class after refactoring.
 
@@ -612,6 +612,8 @@ public int IntValue
     }
 }
 ```
+
+Compare Java and C# code snippets in [Encapsulate Field](https://refactoring.guru/encapsulate-field) article.
 
 Class diagram 13. _SimpleStaticClass8_ class.
 
