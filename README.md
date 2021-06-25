@@ -200,7 +200,7 @@ public static int GetInteger()
 }
 ```
 
-A static method may access a static field or other member without using a class name.
+A static method may access a static field or another member without using a class name.
 
 Example 4.3. Accessing a static field in a static method without using a class name.
 
