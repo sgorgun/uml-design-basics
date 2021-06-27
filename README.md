@@ -1236,6 +1236,14 @@ public static object CreateSimpleClass16WithDefaultValues()
 
 Use named arguments to pass arguments to the _SimpleClass16_ constructor.
 
+Another way to implement a property with "get" accessory only is to use [read-only property syntax](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members#read-only-properties).
+
+Example 23.5. Read-only property.
+
+```cs
+public int IntValue => this.intField;
+```
+
 #### Step Questions
 
 * What is a read-only field?
