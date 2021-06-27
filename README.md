@@ -1244,6 +1244,8 @@ Example 23.5. Read-only property.
 public int IntValue => this.intField;
 ```
 
+Implement the properties of the _SimpleClass16_ class as read-only properties.  
+
 #### Step Questions
 
 * What is a read-only field?
@@ -1251,6 +1253,7 @@ public int IntValue => this.intField;
 * Is it true that a const field is a run-time constant and the read-only field can be used for compile-time constants?
 * Whether it is possible for a property to have only a "get" accessor?
 * Whether it is possible for a property to have only a "set" accessor?
+* Does a read-only property have both "get" and "set" accessors?
 * Whether the _SimpleClass16_ class is immutable or mutable class? Why?
 
 
