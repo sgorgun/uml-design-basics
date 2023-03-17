@@ -10,4 +10,15 @@
 
 namespace UmlDesignBasics
 {
+    public class SimpleClass2
+    {
+        public float FloatField;
+        public double DoubleField;
+        public int IntField;
+        public bool BooleanField;
+        private long longField;
+        private char charField;
+        private string? stringField;
+        private object? objectField;
+    }
 }

@@ -6,32 +6,27 @@ namespace UmlDesignBasics
     {
         public static object CreateSimpleClass16WithDefaultValues()
         {
-            // TODO: Implement this method.
-            throw new NotImplementedException();
+            return new SimpleClass16();
         }
 
         public static object CreateSimpleClass16(long longValue)
         {
-            // TODO: Implement this method.
-            throw new NotImplementedException();
+            return new SimpleClass16(longValue: longValue);
         }
 
         public static object CreateSimpleClass16(float floatValue)
         {
-            // TODO: Implement this method.
-            throw new NotImplementedException();
+            return new SimpleClass16(floatValue: floatValue);
         }
 
         public static object CreateSimpleClass16(int intValue, bool boolValue)
         {
-            // TODO: Implement this method.
-            throw new NotImplementedException();
+            return new SimpleClass16(intValue: intValue, booleanValue: boolValue);
         }
 
         public static object CreateSimpleClass16(double doubleValue, char charValue, string stringValue)
         {
-            // TODO: Implement this method.
-            throw new NotImplementedException();
+            return new SimpleClass16(doubleValue: doubleValue, charValue: charValue, stringValue: stringValue);
         }
     }
 }
